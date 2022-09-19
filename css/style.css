@@ -36,6 +36,10 @@
 .debug .col-small {
   background-color: #ffc0cb;
 }
+
+.debug main section:nth-child(even) {
+  background-color: #d3d3d3;
+}
 /* =============
     common
 ================ */
@@ -81,10 +85,6 @@ section.hero {
 
 .col-small {
   width: 40%;
-}
-
-main section:nth-child(even) {
-  background-color: #d3d3d3;
 }
 
 /* =============
