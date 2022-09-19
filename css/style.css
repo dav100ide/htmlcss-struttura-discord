@@ -40,6 +40,12 @@
 .debug main section:nth-child(even) {
   background-color: #d3d3d3;
 }
+
+.debug #closing-section {
+  height: 900px;
+  background-color: #228b22;
+}
+
 /* =============
     common
 ================ */
@@ -74,9 +80,11 @@ section.hero {
 /* =============
     main
 ================ */
+main > section > * {
+  padding: 55px 0;
+}
 .row {
   display: flex;
-  padding: 55px 0;
 }
 
 .col-big {
@@ -86,7 +94,10 @@ section.hero {
 .col-small {
   width: 40%;
 }
-
+#closing-section {
+  /*la ultima sezione verde*/
+  width: 100%;
+}
 /* =============
     footer
 ================ */
