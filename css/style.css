@@ -44,6 +44,9 @@
   height: 900px;
   background-color: #228b22;
 }
+.debug footer {
+  background-color: #23272a;
+}
 .debug .footer-top {
   height: 550px;
 }
@@ -56,16 +59,22 @@
   background-color: #20b2aa;
 }
 
-.debug footer {
-  background-color: #23272a;
+.debug .footer-bottom {
+  background-color: #7fffd4;
 }
-
+.debug .footer-logo,
+.debug .footer-btn {
+  background-color: #ffb6c1;
+}
 /* =============
     common
 ================ */
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+.btn {
+  /* classe generica dei bottoni */
 }
 /* =============
     header
@@ -116,7 +125,7 @@ main > section > * {
   width: 100%;
 }
 /* =============
-    footer
+    footer-top
 ================ */
 footer {
   border-bottom: 1px solid white;
@@ -135,4 +144,18 @@ footer {
 
 .skyblue-info {
   width: calc((100% - 100% / 3) / 4);
+}
+
+/* =============
+    footer-bottom
+================ */
+.footer-bottom {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo,
+.footer-btn {
+  padding: 5px;
 }
