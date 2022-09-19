@@ -23,7 +23,6 @@
 }
 .debug .hero-content {
   height: 400px;
-  width: 900px;
   background-color: #ee82ee;
 }
 .debug .row {
@@ -44,6 +43,21 @@
 .debug #closing-section {
   height: 900px;
   background-color: #228b22;
+}
+.debug .footer-top {
+  height: 550px;
+}
+
+.debug #red-info {
+  background-color: #f08080;
+}
+
+.debug .skyblue-info {
+  background-color: #20b2aa;
+}
+
+.debug footer {
+  background-color: #23272a;
 }
 
 /* =============
@@ -70,11 +84,14 @@ header {
   list-style: none;
   display: inline;
 }
-/* hero */
+/* ===============
+     hero 
+================*/
 section.hero {
   padding: 15px 0;
 }
 .hero-content {
+  width: 50%;
   margin: 0 auto;
 }
 /* =============
@@ -101,3 +118,21 @@ main > section > * {
 /* =============
     footer
 ================ */
+footer {
+  border-bottom: 1px solid white;
+}
+.footer-top {
+  padding: 10px 0 40px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#red-info {
+  /* informazione importante del footer top*/
+  width: calc(100% / 3);
+}
+
+.skyblue-info {
+  width: calc((100% - 100% / 3) / 4);
+}
