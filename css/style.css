@@ -1,0 +1,57 @@
+/* =============
+    reset
+================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* =============
+    debug
+================ */
+.debug header {
+  background-color: #add8e6;
+}
+.debug .header-row {
+  background-color: #daa520;
+}
+.debug .hero {
+  background-color: #00008b;
+  height: 500px;
+}
+.debug .container > * {
+  border: 1px dotted black;
+}
+
+/* =============
+    common
+================ */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* =============
+    header
+================ */
+header {
+  padding: 15px 0;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-row ul li {
+  list-style: none;
+  display: inline;
+}
+
+/* =============
+    main
+================ */
+
+/* =============
+    footer
+================ */
