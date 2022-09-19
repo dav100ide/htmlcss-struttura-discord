@@ -20,7 +20,7 @@
   height: 500px;
 }
 .debug .container > * {
-  border: 1px dotted black;
+  border: 2px dashed black;
 }
 
 /* =============
