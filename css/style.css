@@ -145,6 +145,7 @@ footer {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
+  border-bottom: 1px white solid;
 }
 
 #red-info {
@@ -160,6 +161,7 @@ footer {
     footer-bottom
 ================ */
 .footer-bottom {
+  margin-top: 20px;
   padding: 25px 0;
   display: flex;
   justify-content: space-between;
