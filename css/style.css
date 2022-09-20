@@ -83,15 +83,26 @@ header {
 }
 .header-row {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
-
+.header-row ul {
+  width: 60%;
+  text-align: center;
+}
 .header-row ul li {
   list-style: none;
-  display: inline;
+  display: inline-block;
 }
+.header-row ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.header-logo,
+.header-btn {
+  width: 20%;
+}
+
 /* ===============
      hero 
 ================*/
